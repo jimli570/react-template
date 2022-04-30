@@ -210,8 +210,10 @@ Jimmy Liikala
 
 Thanks to Robin Isaksson [@asura6](https://github.com/asura6) for verifying the project and shedding light on parts that needed improvements. 
 
-Some resources used in the making: 
-
+<details>
+<summary>Some resources used in the making</summary>
+<br>
+   
 * [Getting Started with React Redux](https://react-redux.js.org/introduction/getting-started)
 * [Markdown guide](https://www.markdownguide.org/)
 * [jest](https://jestjs.io)
@@ -220,3 +222,7 @@ Some resources used in the making:
 * [package.json](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 * [Common mistakes with React Testing Library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
 * [Customize Create React App without Ejecting](https://www.npmjs.com/package/react-app-rewired)
+   
+</details>
+
+
