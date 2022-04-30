@@ -139,8 +139,6 @@ This is a good section for that.
 | Filename            | Description                                                    |
 | ------------------- | -------------------------------------------------------------- |
 | ```.env```          | Define env-variables that can be used in the application here. |
-| ```npm run build``` | Builds the project into 'dist/' folder                         |
-
 ### FAQ
 
 <details>
