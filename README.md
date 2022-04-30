@@ -17,12 +17,6 @@ It might not contain everything you need, but it should be a good starting point
 
 [Node Package Manager](https://www.npmjs.com/)
 
-<details>
-<summary>package.json</summary>
-It is good to know that npm uses the 'package.json' as entry point for the project.
-</details>
-<br>
-
 ### Installing
 
 From withing the project root directory.
