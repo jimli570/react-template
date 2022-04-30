@@ -107,7 +107,7 @@ Packages that I most likely will use in production.
 | ```react```            | The framework used for the webinterface                                                                                                                |
 | ```react-dom```        | Extends react to enable DOM-manupilation (single page apps)                                                                                            |
 | ```react-redux```      | The store (state-machine), which share/sync state between components                                                                                   |
-| ```react-router-dom``` | The router, helps link between the browser's URL/History and Vue's components allowing for certain paths to render whatever view is associated with it |
+| ```react-router-dom``` | The router, helps link between the browser's URL/History and components allowing for certain paths to render whatever view is associated with it |
 | ```@apollo/client```   | Used to interface with a potential backend                                                                                                             |
 
 #### Development
