@@ -4,7 +4,7 @@ React template project.
 
 ## Description
 
-Moder up to date project template for a modern SPA react project.
+Modern up to date project template for a modern SPA react project.
 
 It is important to have a good foundation to build your project upon, with a bad foundation you eventually have to pay the price. It will eventually end up with more bugs, less understandable code, less fun code to work with. All these things will cost you in **time**.
 
