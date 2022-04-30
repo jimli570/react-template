@@ -134,11 +134,22 @@ Some things might be worthwhile mentioning, or explanings.
 This is a good section for that.
 
 
-### Config files
+### Files
 
-| Filename            | Description                                                    |
-| ------------------- | -------------------------------------------------------------- |
-| ```.env```          | Define env-variables that can be used in the application here. |
+Some explenation of the files in the root-folder.
+
+| Filename                            | Description                                                                            |
+| ----------------------------------- | -------------------------------------------------------------------------------------- |
+| ```.env```                          | Define env-variables that can be used in the application here.                         |
+| ```.eslintignore```                 | Containes folders & files that should be ignored by eslint                             |
+| ```.gitignore```                    | Contains folders & files that should be ignored by git                                 |
+| ```README.md```                     | This is the README you are reading right now                                           |
+| ```config-overrides.js```           | Override project configuration that otherwise might be difficult to hook into in here. |
+| ```package-lock.json```             | Containsdependency-tree of all packages                                                |
+| ```package.json```                  | This is the project entrypoint                                                         |
+| ```react-template.code-workspace``` | Template workspace file for VS Code, with some plugin recommendations                  |
+| ```tsconfig.json```                 | Typescript configuration                                                               |
+
 ### FAQ
 
 <details>
