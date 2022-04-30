@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true
+	},
+	"extensions": {
+		"recommendations": [
+			"anseki.vscode-color",
+			"dbaeumer.vscode-eslint",
+			"donjayamanne.githistory",
+			"eamodio.gitlens",
+			"dbankier.vscode-instant-markdown",
+			"michelemelluso.code-beautifier",
+			"dsznajder.es7-react-js-snippets",
+			"discountry.react-redux-react-router-snippets"
+		]
+	}
+}

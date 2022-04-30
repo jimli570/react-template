@@ -1,0 +1,9 @@
+public/
+build/
+out/
+node_modules/
+.env
+.gitignore
+config.override.js
+package-lock.json
+README.md
