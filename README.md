@@ -199,7 +199,7 @@ Jimmy Liikala
 
 ## Acknowledgments
 
-Thanks to Robin Isaksson (@asura6)[https://github.com/asura6] for verifying the project and shedding light on parts that needed improvements. 
+Thanks to Robin Isaksson [@asura6](https://github.com/asura6) for verifying the project and shedding light on parts that needed improvements. 
 
 Some resources used in the making: 
 
