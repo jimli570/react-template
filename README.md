@@ -32,7 +32,7 @@ It might not contain everything you need, but it should be a good starting point
        * [Development](#Development)
        * [Optional](#Optional)
    * [Help](#Help)
-     * [Files](#Files)
+     * [Files](#Project-files)
      * [FAQ](#FAQ)
      * [Useful sites for developers](#Useful-sites-for-developers)
    * [Version History](#Version-History)
