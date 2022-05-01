@@ -270,7 +270,7 @@ SOFTWARE.
 Thanks to Robin Isaksson [@asura6](https://github.com/asura6) for verifying the project and shedding light on parts that needed improvements. 
 
 <details>
-<summary>Some resources used in the making</summary>
+<summary>Some resources found useful in the making</summary>
 <br>
    
 * [Getting Started with React Redux](https://react-redux.js.org/introduction/getting-started)
