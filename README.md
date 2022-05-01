@@ -139,7 +139,7 @@ Some explenation of the files in the root-folder.
 | ```.gitignore```                    | Contains folders & files that should be ignored by git                                 |
 | ```README.md```                     | This is the README you are reading right now                                           |
 | ```config-overrides.js```           | Override project configuration that otherwise might be difficult to hook into in here. |
-| ```package-lock.json```             | Containsdependency-tree of all packages                                                |
+| ```package-lock.json```             | Contains dependency-tree of all the packages                                           |
 | ```package.json```                  | This is the project entrypoint                                                         |
 | ```react-template.code-workspace``` | Template workspace file for VS Code, with some plugin recommendations                  |
 | ```tsconfig.json```                 | Typescript configuration                                                               |
