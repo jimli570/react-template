@@ -83,19 +83,19 @@ From withing the project root directory.
 
 ### Test
 
-| Syntax                           | Description                                         |
-| -------------------------------- | --------------------------------------------------- |
-| ```npm run test```               | Run tests once                                      |
-| ```npm run test::watch```        | Tests run as you code                               |
-| ```npm run test::coverage```     | Print coverage report of tests                      |
-| ```npm run test::dumpcoverage``` | Dump coverage report of tests to 'out/coverage.out' |
+| Syntax                          | Description                                         |
+| ------------------------------- | --------------------------------------------------- |
+| ```npm run test```              | Run tests once                                      |
+| ```npm run test:watch```        | Tests run as you code                               |
+| ```npm run test:coverage```     | Print coverage report of tests                      |
+| ```npm run test:dumpcoverage``` | Dump coverage report of tests to 'out/coverage.out' |
 
 ### Lint
 
-| Syntax                      | Description                                |
-| --------------------------- | ------------------------------------------ |
-| ```npm run lint```          | Lint 'src' folder                          |
-| ```npm run lint::dumpcfg``` | Lint & dump 'src' folder to 'out/lint.out' |
+| Syntax                     | Description                                |
+| -------------------------- | ------------------------------------------ |
+| ```npm run lint```         | Lint 'src' folder                          |
+| ```npm run lint:dumpcfg``` | Lint & dump 'src' folder to 'out/lint.out' |
 
 ### Husky
 
