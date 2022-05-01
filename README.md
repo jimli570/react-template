@@ -165,7 +165,7 @@ Some explenation of the files in the project.
  | Name                                | Type   | Description                                                                                            |
  | ----------------------------------- | ------ | ------------------------------------------------------------------------------------------------------ |
  | ```public```                        | folder | Static content that will be available in the project, index.html being the template for the html entry |
- | ```scripts```                       | folder | Custom scripts                                                                                         |
+ | ```scripts```                       | folder | A place to put your custom scripts custom scripts                                                      |
  | ```src```                           | folder | Project sourcecode                                                                                     |
  | ```.env```                          | file   | Define env-variables that can be used in the application here                                          |
  | ```.eslintignore```                 | file   | Contains list of folders & files that should be ignored by eslint                                      |
