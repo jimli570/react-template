@@ -54,7 +54,7 @@ From withing the project root directory.
 | Command order | Syntax                   | Description                                                                                  |
 | ------------- | ------------------------ | -------------------------------------------------------------------------------------------- |
 | 1             | ```npm install```        | Install all the project dependencies specified in package.json                               |
-| 2             | ```npm run husky:prep``` | Setup husky hooks. ```npm run lint``` & ```npm run test``` will execute as pre-commit hooks. |
+| 2             | ```npm run husky:setup``` | Setup husky hooks. ```npm run lint``` & ```npm run test``` will execute as pre-commit hooks. |
 
 ### Executing program
 
@@ -101,19 +101,17 @@ From withing the project root directory.
 
 Pre-commit hook.
 
-| Syntax            | Description                                                                                                                                      |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ```husky:prep```  | You need to run this once in repository root, it will enable git-hooks. ```husky:make-executable``` is also called.                              |
-| ```husky:setup``` | Setups ```npm run lint``` & ```npm run test``` as pre-commit hookes. Sets executable permission on the pre-commit-hook-file './husky/pre-commit' |
+| Syntax                     | Description                                                                                                         |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| ```husky:setup```           | You need to run this once in repository root, it will enable git-hooks. ```husky:make-executable``` is also called. |
+| ```husky:makeexecutable``` | Runs 'scripts/setupHusky.sh' which sets the '.husky/pre-commit' as a executable                                     |
 
 ### Other
 
-| Syntax                              | Description                                                            |
-| ----------------------------------- | ---------------------------------------------------------------------- |
-| ```npm run huskyprep```             | You need to run this once in repository root, it will enable git-hooks |
-| ```npm run eject```                 | Avoid this, ejects all configs and gives you full control of them      |
-| ```npm run make-husky-executable``` | Example script                                                         |
-| ```npm run upload-to-server```      | Example script                                                         |
+| Syntax                         | Description                                                       |
+| ------------------------------ | ----------------------------------------------------------------- |
+| ```npm run eject```            | Avoid this, ejects all configs and gives you full control of them |
+| ```npm run upload-to-server``` | Example script                                                    |
 
 <!-- --- -->
 
@@ -133,7 +131,7 @@ Packages that I most likely will use in production.
 | ```react-dom```        | Extends react to enable DOM-manupilation (single page apps)                                                                                      |
 | ```react-redux```      | The store (state-machine), which share/sync state between components                                                                             |
 | ```react-router-dom``` | The router, helps link between the browser's URL/History and components allowing for certain paths to render whatever view is associated with it |
-| ```@apollo/client```   | Used to interface with a potential backend. If you decide to not use this, then also remove Apollo from 'src/App.tsx                             |
+| ```@apollo/client```   | Used to interface with a potential backend. If you decide to not use this, then also remove Apollo from 'src/App.tsx'                            |
 
 #### Development
 
@@ -203,7 +201,7 @@ does not have to be done again.
 <summary>Problems using the precommit hook</summary>
 <br>
 This is problubary because the git-hook is not set as executeable, 
-try running ```npm run make-husky-executable```, it sets the './husky/pre-commit' as a executable.
+try running ```npm run husky:makeexecutable```, it sets the './husky/pre-commit' as a executable.
 </details>
 
 <details>

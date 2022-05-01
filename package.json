@@ -27,8 +27,8 @@
     "test:dumpcoverage": "npm run test:coverage > out/coverage.out",
     "lint": "eslint src/",
     "lint:dumpcfg": "eslint --print-config lintcfg.out > out/lint.out",
-    "husky:prep": "husky install && npm run husky:setup",
-    "husky:setup": "sh scripts/setupHusky.sh",
+    "husky:setup": "husky install && npm run husky:setup",
+    "husky:makeexecutable": "sh scripts/setupHusky.sh",
     "eject": "react-scripts eject",
     "upload-to-server": "sh scripts/uploadToServer.sh"
   },
