@@ -133,7 +133,7 @@ Packages that I most likely will use in production.
 | ```react-dom```        | Extends react to enable DOM-manupilation (single page apps)                                                                                      |
 | ```react-redux```      | The store (state-machine), which share/sync state between components                                                                             |
 | ```react-router-dom``` | The router, helps link between the browser's URL/History and components allowing for certain paths to render whatever view is associated with it |
-| ```@apollo/client```   | Used to interface with a potential backend                                                                                                       |
+| ```@apollo/client```   | Used to interface with a potential backend. If you decide to not use this, then also remove Apollo from 'src/App.tsx                             |
 
 #### Development
 
