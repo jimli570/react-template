@@ -2,16 +2,24 @@
 
 React template project.
 
+## Description
+
+Modern up to date project template for a modern SPA react project.
+
+It is important to have a good foundation to build your project upon, with a bad foundation you eventually have to pay the price. It will eventually end up with more bugs, less understandable code, less fun code to work with. All these things will cost you in **time**.
+
+therefore I created this, to have a good starting point.
+It might not contain everything you need, but it should be a good starting point for your creation of a modern webapplication.
+
 ## Table of contents
 
 <!--ts-->
-   * [Description](#Description)
    * [Getting Started](#Getting-started)
      * [Prerequisites](#Prerequisites)
      * [Installing](#Installing)
      * [Executing program](##Executing-program)
-       * [Production deploy](##Production-deploy)
-       * [Development deploy](##Development-deploy)
+       * [Production deploy](#Production-deploy)
+       * [Development deploy](#Development-deploy)
    * [Scripts](#Scripts)
      * [Common](#Common)
      * [Test](#Test)
@@ -32,15 +40,6 @@ React template project.
    * [License](#License)
    * [Acknowledgments](#Acknowledgments)
 <!--te-->
-
-## Description
-
-Modern up to date project template for a modern SPA react project.
-
-It is important to have a good foundation to build your project upon, with a bad foundation you eventually have to pay the price. It will eventually end up with more bugs, less understandable code, less fun code to work with. All these things will cost you in **time**.
-
-therefore I created this, to have a good starting point.
-It might not contain everything you need, but it should be a good starting point for your creation of a modern webapplication.
 
 ## Getting Started
 
