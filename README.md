@@ -217,7 +217,6 @@ Some more comments about the issue can be found [here](https://github.com/mswjs/
 | [caniuse](https://caniuse.com/)         | Check browser support       |
 | [w3schools](https://www.w3schools.com/) | Tutorials in most web-techs |
 
-
 ## Version History
 
 * 1.0.0 (2002-04-30)
