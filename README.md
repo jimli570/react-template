@@ -219,7 +219,7 @@ Some more comments about the issue can be found [here](https://github.com/mswjs/
 
 ## Version History
 
-* 1.0.0 (2002-04-30)
+* 1.0.0 (2022-04-30)
     * Initial Release. All packages up to date.
 
 ---
