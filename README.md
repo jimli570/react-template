@@ -212,10 +212,11 @@ Some more comments about the issue can be found [here](https://github.com/mswjs/
 
 ### Useful sites for developers
 
-| Link                                    | Description                 |
-| --------------------------------------- | --------------------------- |
-| [caniuse](https://caniuse.com/)         | Check browser support       |
-| [w3schools](https://www.w3schools.com/) | Tutorials in most web-techs |
+| Link                                    | Description                                      |
+| --------------------------------------- | ------------------------------------------------ |
+| [caniuse](https://caniuse.com/)         | Check browser support                            |
+| [w3schools](https://www.w3schools.com/) | Tutorials in most web-techs                      |
+| [Metatags](https://metatags.io/)        | Useful for generating social media metadata tags |
 
 ## Version History
 
