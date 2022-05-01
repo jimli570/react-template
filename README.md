@@ -168,11 +168,11 @@ Some explenation of the files in the project.
  | ```scripts```                       | folder | Custom scripts                                                                                         |
  | ```src```                           | folder | Project sourcecode                                                                                     |
  | ```.env```                          | file   | Define env-variables that can be used in the application here                                          |
- | ```.eslintignore```                 | file   | Containes folders & files that should be ignored by eslint                                             |
- | ```.gitignore```                    | file   | Contains folders & files that should be ignored by git                                                 |
+ | ```.eslintignore```                 | file   | Contains list of folders & files that should be ignored by eslint                                      |
+ | ```.gitignore```                    | file   | Contains list of folders & files that should be ignored by git                                         |
  | ```README.md```                     | file   | This is the README you are reading right now                                                           |
  | ```config-overrides.js```           | file   | Override project configuration that otherwise might be difficult to hook into in here.                 |
- | ```package-lock.json```             | file   | Contains dependency-tree of all the packages                                                           |
+ | ```package-lock.json```             | file   | Contains dependency-tree of all the packages and subpackages                                           |
  | ```package.json```                  | file   | This is the project entrypoint                                                                         |
  | ```react-template.code-workspace``` | file   | Template workspace file for VS Code, with some plugin recommendations                                  |
  | ```tsconfig.json```                 | file   | Typescript configuration                                                                               |
