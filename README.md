@@ -2,6 +2,37 @@
 
 React template project.
 
+## Table of contents
+
+<!--ts-->
+   * [Description](##Description)
+   * [Getting Started](##Getting-started)
+     * [Prerequisites](##Prerequisites)
+     * [Installing](##Installing)
+     * [Executing program](###Executing-program)
+       * [Production deploy](###Production-deploy)
+       * [Development deploy](###Development-deploy)
+   * [Scripts](##Scripts)
+     * [Common](###Common)
+     * [Test](###Test)
+     * [Lint](###Lint)
+     * [Husky](###Husky)
+     * [Other](###Other)
+   * [Libraries & Tools](##Libraries-&-Tools)
+     * [Dependencies](###Dependencies)
+       * [Production](####Production)
+       * [Development](####Development)
+       * [Optional](####Optional)
+   * [Help](##Help)
+     * [Files](###Files)
+     * [FAQ](###FAQ)
+     * [Useful sites for developers](###Useful-sites-for-developers)
+   * [Version History](##Version-History)
+   * [Authors](##Authors)
+   * [License](##License)
+   * [Acknowledgments](##Acknowledgments)
+<!--te-->
+
 ## Description
 
 Modern up to date project template for a modern SPA react project.
@@ -44,7 +75,8 @@ From withing the project root directory.
 
 ## Scripts
 
-###
+### Common
+
 | Syntax              | Description                                          |
 | ------------------- | ---------------------------------------------------- |
 | ```npm run start``` | Deploys the applications locally in development mode |
@@ -127,7 +159,6 @@ Packages I might want to use in the projects.
 Some things might be worthwhile mentioning, or explanings.
 This is a good section for that.
 
-
 ### Files
 
 Some explenation of the files in the root-folder.
@@ -177,12 +208,13 @@ Some more comments about the issue can be found [here](https://github.com/mswjs/
 </details>
 <br>
 
-## Useful sites for developers
+### Useful sites for developers
 
 | Link                                    | Description                 |
 | --------------------------------------- | --------------------------- |
 | [caniuse](https://caniuse.com/)         | Check browser support       |
 | [w3schools](https://www.w3schools.com/) | Tutorials in most web-techs |
+
 
 ## Version History
 
