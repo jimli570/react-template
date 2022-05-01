@@ -158,7 +158,7 @@ Packages I might want to use in the projects.
 Some things might be worthwhile mentioning, or explanings.
 This is a good section for that.
 
-### Project File Structure
+### Project Files
 
 Some explenation of the files in the project.
 
