@@ -167,7 +167,6 @@ Some explenation of the files in the project.
  | ```public```                        | folder | Static content that will be available in the project, index.html being the template for the html entry |
  | ```scripts```                       | folder | A place to put your custom scripts in                                                                  |
  | ```src```                           | folder | Project sourcecode                                                                                     |
- | ```.env```                          | file   | Define env-variables that can be used in the application here                                          |
  | ```.eslintignore```                 | file   | Contains list of folders & files that should be ignored by eslint                                      |
  | ```.gitignore```                    | file   | Contains list of folders & files that should be ignored by git                                         |
  | ```README.md```                     | file   | This is the README you are reading right now                                                           |
@@ -177,6 +176,18 @@ Some explenation of the files in the project.
  | ```react-template.code-workspace``` | file   | Template workspace file for VS Code, with some plugin recommendations                                  |
  | ```tsconfig.json```                 | file   | Typescript configuration                                                                               |
 
+
+Then enviroment-files are useful hooks for the tools, where you can define variables that you may use in your project.
+If a variable is not used in the project, it will not be included in the build. 
+ 
+ | Name                   | Type | Description                                                                            |
+ | ---------------------- | ---- | -------------------------------------------------------------------------------------- |
+ | ```.env```             | file | Define env-variables that can be used in the application here. this one is always read |
+ | ```.env.local```       | file | Make your own local overrides here. Do not commit, keep in .gitignore                  |
+ | ```.env.development``` | file | Read in development                                                                    |
+ | ```.env.test```        | file | Read in test                                                                           |
+ | ```.env.production```  | file | Read in production                                                                     |
+ 
 ### FAQ
 
 <details>
