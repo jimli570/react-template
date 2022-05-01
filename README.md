@@ -127,13 +127,13 @@ Describes some of the libraries in use, or that might be used. These can be adju
 
 Packages that I most likely will use in production.
 
-| Package                | Description                                                                                                                                            |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ```react```            | The framework used for the webinterface                                                                                                                |
-| ```react-dom```        | Extends react to enable DOM-manupilation (single page apps)                                                                                            |
-| ```react-redux```      | The store (state-machine), which share/sync state between components                                                                                   |
+| Package                | Description                                                                                                                                      |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ```react```            | The framework used for the webinterface                                                                                                          |
+| ```react-dom```        | Extends react to enable DOM-manupilation (single page apps)                                                                                      |
+| ```react-redux```      | The store (state-machine), which share/sync state between components                                                                             |
 | ```react-router-dom``` | The router, helps link between the browser's URL/History and components allowing for certain paths to render whatever view is associated with it |
-| ```@apollo/client```   | Used to interface with a potential backend                                                                                                             |
+| ```@apollo/client```   | Used to interface with a potential backend                                                                                                       |
 
 #### Development
 
@@ -158,21 +158,24 @@ Packages I might want to use in the projects.
 Some things might be worthwhile mentioning, or explanings.
 This is a good section for that.
 
-### Files
+### Project File Structure
 
-Some explenation of the files in the root-folder.
+Some explenation of the files in the project.
 
-| Filename                            | Description                                                                            |
-| ----------------------------------- | -------------------------------------------------------------------------------------- |
-| ```.env```                          | Define env-variables that can be used in the application here.                         |
-| ```.eslintignore```                 | Containes folders & files that should be ignored by eslint                             |
-| ```.gitignore```                    | Contains folders & files that should be ignored by git                                 |
-| ```README.md```                     | This is the README you are reading right now                                           |
-| ```config-overrides.js```           | Override project configuration that otherwise might be difficult to hook into in here. |
-| ```package-lock.json```             | Contains dependency-tree of all the packages                                           |
-| ```package.json```                  | This is the project entrypoint                                                         |
-| ```react-template.code-workspace``` | Template workspace file for VS Code, with some plugin recommendations                  |
-| ```tsconfig.json```                 | Typescript configuration                                                               |
+ | Name                                | Type   | Description                                                                            |
+ | ----------------------------------- | ------ | -------------------------------------------------------------------------------------- |
+ | ```public```                        | folder | Contains static content that will be                                                   |
+ | ```scripts```                       | folder | Custom scripts                                                                         |
+ | ```src```                           | folder | Project sourcecode                                                                     |
+ | ```.env```                          | file   | Define env-variables that can be used in the application here                          |
+ | ```.eslintignore```                 | file   | Containes folders & files that should be ignored by eslint                             |
+ | ```.gitignore```                    | file   | Contains folders & files that should be ignored by git                                 |
+ | ```README.md```                     | file   | This is the README you are reading right now                                           |
+ | ```config-overrides.js```           | file   | Override project configuration that otherwise might be difficult to hook into in here. |
+ | ```package-lock.json```             | file   | Contains dependency-tree of all the packages                                           |
+ | ```package.json```                  | file   | This is the project entrypoint                                                         |
+ | ```react-template.code-workspace``` | file   | Template workspace file for VS Code, with some plugin recommendations                  |
+ | ```tsconfig.json```                 | file   | Typescript configuration                                                               |
 
 ### FAQ
 
