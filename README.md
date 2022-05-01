@@ -162,20 +162,20 @@ This is a good section for that.
 
 Some explenation of the files in the project.
 
- | Name                                | Type   | Description                                                                            |
- | ----------------------------------- | ------ | -------------------------------------------------------------------------------------- |
- | ```public```                        | folder | Contains static content that will be                                                   |
- | ```scripts```                       | folder | Custom scripts                                                                         |
- | ```src```                           | folder | Project sourcecode                                                                     |
- | ```.env```                          | file   | Define env-variables that can be used in the application here                          |
- | ```.eslintignore```                 | file   | Containes folders & files that should be ignored by eslint                             |
- | ```.gitignore```                    | file   | Contains folders & files that should be ignored by git                                 |
- | ```README.md```                     | file   | This is the README you are reading right now                                           |
- | ```config-overrides.js```           | file   | Override project configuration that otherwise might be difficult to hook into in here. |
- | ```package-lock.json```             | file   | Contains dependency-tree of all the packages                                           |
- | ```package.json```                  | file   | This is the project entrypoint                                                         |
- | ```react-template.code-workspace``` | file   | Template workspace file for VS Code, with some plugin recommendations                  |
- | ```tsconfig.json```                 | file   | Typescript configuration                                                               |
+ | Name                                | Type   | Description                                                                                            |
+ | ----------------------------------- | ------ | ------------------------------------------------------------------------------------------------------ |
+ | ```public```                        | folder | Static content that will be available in the project, index.html being the template for the html entry |
+ | ```scripts```                       | folder | Custom scripts                                                                                         |
+ | ```src```                           | folder | Project sourcecode                                                                                     |
+ | ```.env```                          | file   | Define env-variables that can be used in the application here                                          |
+ | ```.eslintignore```                 | file   | Containes folders & files that should be ignored by eslint                                             |
+ | ```.gitignore```                    | file   | Contains folders & files that should be ignored by git                                                 |
+ | ```README.md```                     | file   | This is the README you are reading right now                                                           |
+ | ```config-overrides.js```           | file   | Override project configuration that otherwise might be difficult to hook into in here.                 |
+ | ```package-lock.json```             | file   | Contains dependency-tree of all the packages                                                           |
+ | ```package.json```                  | file   | This is the project entrypoint                                                                         |
+ | ```react-template.code-workspace``` | file   | Template workspace file for VS Code, with some plugin recommendations                                  |
+ | ```tsconfig.json```                 | file   | Typescript configuration                                                                               |
 
 ### FAQ
 
