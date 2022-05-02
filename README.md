@@ -53,9 +53,9 @@ It might not contain everything you need, but it should be a good starting point
 
 From withing the project root directory.
 
-| Command order | Syntax                   | Description                                                                                  |
-| ------------- | ------------------------ | -------------------------------------------------------------------------------------------- |
-| 1             | ```npm install```        | Install all the project dependencies specified in package.json                               |
+| Command order | Syntax                    | Description                                                                                  |
+| ------------- | ------------------------- | -------------------------------------------------------------------------------------------- |
+| 1             | ```npm install```         | Install all the project dependencies specified in package.json                               |
 | 2             | ```npm run husky:setup``` | Setup husky hooks. ```npm run lint``` & ```npm run test``` will execute as pre-commit hooks. |
 
 ### Executing program
@@ -105,7 +105,7 @@ Pre-commit hook.
 
 | Syntax                     | Description                                                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| ```husky:setup```           | You need to run this once in repository root, it will enable git-hooks. ```husky:make-executable``` is also called. |
+| ```husky:setup```          | You need to run this once in repository root, it will enable git-hooks. ```husky:make-executable``` is also called. |
 | ```husky:makeexecutable``` | Runs 'scripts/setupHusky.sh' which sets the '.husky/pre-commit' as a executable                                     |
 
 ### Other
