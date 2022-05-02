@@ -103,10 +103,10 @@ From withing the project root directory.
 
 Pre-commit hook.
 
-| Syntax                     | Description                                                                                                         |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| ```husky:setup```          | You need to run this once in repository root, it will enable git-hooks. ```husky:make-executable``` is also called. |
-| ```husky:makeexecutable``` | Runs 'scripts/setupHusky.sh' which sets the '.husky/pre-commit' as a executable                                     |
+| Syntax                     | Description                                                                                                        |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| ```husky:setup```          | You need to run this once in repository root, it will enable git-hooks. ```husky:makeexecutable``` is also called. |
+| ```husky:makeexecutable``` | Runs 'scripts/setupHusky.sh' which sets the '.husky/pre-commit' as a executable                                    |
 
 ### Other
 
@@ -191,7 +191,7 @@ If a variable is not used in the project, it will not be included in the build.
 ### FAQ
 
 <details>
-<summary>How was these project files initially created?</summary>
+<summary>How was these project files initially created</summary>
 <br>
 The inital configurations was generated using 'create-react-app'. This
 does not have to be done again.
@@ -245,30 +245,29 @@ Jimmy Liikala
 
 Copyright (c) [2022] [Jimmy Liikala]
 
-<details>
-<summary>MIT License</summary>
-<br>
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+* <details>
+  <summary>MIT License</summary>
+  <br>
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-</details>
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+  </details>
 
 ## Acknowledgments
 
@@ -286,5 +285,4 @@ Thanks to Robin Isaksson [@asura6](https://github.com/asura6) for verifying the 
 * [package.json](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 * [Common mistakes with React Testing Library](https://kentcdodds.com/blog/common-mistakes-with-react-testing-library)
 * [Customize Create React App without Ejecting](https://www.npmjs.com/package/react-app-rewired)
-   
 </details>
