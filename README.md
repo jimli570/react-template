@@ -164,9 +164,9 @@ Some explenation of the files in the project.
 
  | Name                                | Type   | Description                                                                                            |
  | ----------------------------------- | ------ | ------------------------------------------------------------------------------------------------------ |
- | ```public```                        | folder | Static content that will be available in the project, index.html being the template for the html entry |
- | ```scripts```                       | folder | A place to put your custom scripts in                                                                  |
- | ```src```                           | folder | Project sourcecode                                                                                     |
+ | ```public/```                       | folder | Static content that will be available in the project, index.html being the template for the html entry |
+ | ```scripts/```                      | folder | A place to put your custom scripts in                                                                  |
+ | ```src/```                          | folder | Project sourcecode                                                                                     |
  | ```.eslintignore```                 | file   | Contains list of folders & files that should be ignored by eslint                                      |
  | ```.gitignore```                    | file   | Contains list of folders & files that should be ignored by git                                         |
  | ```README.md```                     | file   | This is the README you are reading right now                                                           |
@@ -207,7 +207,7 @@ try running ```npm run husky:makeexecutable```, it sets the './husky/pre-commit'
 </details>
 
 <details>
-<summary>Failed to parse source map from '...node_modules/ts-invariant/src/invariant.ts</summary>
+<summary>Failed to parse source map from '...node_modules/ts-invariant/src/invariant.ts'</summary>
 <br>
 If getting some warnings like below
 This error currently turn up on the dev-server, the is a sourcemap missing, nothing to worry about.
@@ -285,5 +285,3 @@ Thanks to Robin Isaksson [@asura6](https://github.com/asura6) for verifying the 
 * [Customize Create React App without Ejecting](https://www.npmjs.com/package/react-app-rewired)
    
 </details>
-
-
