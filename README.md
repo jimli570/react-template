@@ -185,7 +185,7 @@ If a variable is not used in the project, it will not be included in the build.
  | Name                   | Type | Description                                                                            |
  | ---------------------- | ---- | -------------------------------------------------------------------------------------- |
  | ```.env```             | file | Define env-variables that can be used in the application here. this one is always read |
- | ```.env.local```       | file | Make your own local overrides here. Do not commit, keep in .gitignore                  |
+ | ```.env.local```       | file | Make your own local overrides here. Do not commit changes, keep in .gitignore          |
  | ```.env.development``` | file | Read in development                                                                    |
  | ```.env.test```        | file | Read in test                                                                           |
  | ```.env.production```  | file | Read in production                                                                     |
