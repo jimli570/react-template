@@ -52,11 +52,13 @@ It might not contain everything you need, but it should be a good starting point
 ### Installing
 
 From withing the project root directory.
+Step 2 only needed if you actually want to set these as pre-commit hooks (which is a nice thing to have!).
 
 | Command order | Syntax                    | Description                                                                                  |
 | ------------- | ------------------------- | -------------------------------------------------------------------------------------------- |
 | 1             | ```npm install```         | Install all the project dependencies specified in package.json                               |
 | 2             | ```npm run husky:setup``` | Setup husky hooks. ```npm run lint``` & ```npm run test``` will execute as pre-commit hooks. |
+
 
 ### Executing program
 
@@ -96,7 +98,7 @@ From withing the project root directory.
 
 | Syntax                     | Description                                |
 | -------------------------- | ------------------------------------------ |
-| ```npm run lint```         | Lint 'src' folder                          |
+| ```npm run lint```         | Lint 'src/' folder                         |
 | ```npm run lint:dumpcfg``` | Lint & dump 'src' folder to 'out/lint.out' |
 
 ### Husky
@@ -219,7 +221,6 @@ Failed to parse source map from '...node_modules/ts-invariant/src/invariant.ts'.
 
 Some more comments about the issue can be found [here](https://github.com/mswjs/msw/issues/1030#issuecomment-1001449665)
 </details>
-<br>
 
 ### Useful sites for developers
 
@@ -233,8 +234,6 @@ Some more comments about the issue can be found [here](https://github.com/mswjs/
 
 * 1.0.0 (2022-04-30)
     * Initial Release. All packages up to date.
-
----
 
 ## Authors
 
