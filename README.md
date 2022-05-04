@@ -247,6 +247,7 @@ Copyright (c) [2022] [Jimmy Liikala]
 <details>
   <summary>MIT License</summary>
   <br>
+
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
