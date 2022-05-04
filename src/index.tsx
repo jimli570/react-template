@@ -19,7 +19,7 @@ const root = createRoot(container);
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: "http://localhost:4000/graphql"
+  uri: process.env.REACT_APP_BACKEND
 });
 
 root.render(
