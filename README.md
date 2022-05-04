@@ -181,6 +181,7 @@ Some explenation of the files in the project.
 
 Then enviroment-files are useful hooks for the tools, where you can define variables that you may use in your project.
 If a variable is not used in the project, it will not be included in the build. 
+Remember to use the ```REACT_APP_``` prefix when namkign the variables, otherwise they will not be included.
  
  | Name                   | Type | Description                                                                            |
  | ---------------------- | ---- | -------------------------------------------------------------------------------------- |

@@ -79,15 +79,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "files": [
-    "src/**",
-    "public/**",
-    "README.md",
-    ".env",
-    "package.json",
-    "package-lock.json",
-    "config-overrides.js",
-    "react-template.code-workspace"
-  ]
+  }
 }

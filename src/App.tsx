@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import { Counter } from 'features/counter/Counter';
 import 'App.css';
 
 function App() {
+  const [envVariable] = useState(process.env.REACT_APP_BACKEND);
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
+        <p>
+          Enviromental variable from the .env-files (REACT_APP_BACKEND) <code>{envVariable}</code>.
+        </p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
