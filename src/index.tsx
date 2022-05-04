@@ -18,9 +18,6 @@ import {
 const container = document.getElementById('root')!;
 const root = createRoot(container);
 
-console.log(process.env);
-// console.log(process);
-
 const client = new ApolloClient({
   cache: new InMemoryCache(),
   uri: "http://localhost:4000/graphql"

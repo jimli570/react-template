@@ -5,6 +5,7 @@ import 'App.css';
 
 function App() {
   const [envVariable] = useState(process.env.REACT_APP_BACKEND);
+  // const [envMode] = useState(process.env);
 
   return (
     <div className="App">
@@ -12,7 +13,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
-          Enviromental variable from the .env-files (REACT_APP_BACKEND) <code>{envVariable}</code>.
+          You are in <code>{process.env.NODE_ENV}</code> mode.
+        </p>
+        <p>
+          REACT_APP_BACKEND is set to in the .env files <code>{envVariable}</code>.
         </p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
