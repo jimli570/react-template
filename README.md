@@ -244,7 +244,7 @@ Jimmy Liikala
 
 Copyright (c) [2022] [Jimmy Liikala]
 
-* <details>
+<details>
   <summary>MIT License</summary>
   <br>
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
