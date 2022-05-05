@@ -62,12 +62,6 @@
     "cra-template-redux-typescript": "2.0.0",
     "react-bootstrap": "^2.3.1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
