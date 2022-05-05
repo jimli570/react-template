@@ -37,7 +37,7 @@
     "react-dom": "^18.1.0",
     "react-redux": "^8.0.1",
     "react-router-dom": "^6.3.0",
-    "@apollo/client": "^3.6.1"
+    "@apollo/client": "^3.6.2"
   },
   "devDependencies": {
     "@reduxjs/toolkit": "^1.8.1",

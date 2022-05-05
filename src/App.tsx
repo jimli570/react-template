@@ -12,7 +12,7 @@ function App() {
           You are in <code>{ process.env.NODE_ENV }</code> mode.
         </p>
         <p>
-          REACT_APP_BACKEND is set to in the .env files <code>{ process.env.REACT_APP_BACKEND }</code>.
+          REACT_APP_BACKEND is set to <code>{ process.env.REACT_APP_BACKEND }</code> in the .env files.
         </p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.

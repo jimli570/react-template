@@ -54,10 +54,10 @@ It might not contain everything you need, but it should be a good starting point
 From withing the project root directory.
 Step 2 only needed if you actually want to set these as pre-commit hooks (which is a nice thing to have!).
 
-| Command order | Syntax                    | Description                                                                                  |
-| ------------- | ------------------------- | -------------------------------------------------------------------------------------------- |
-| 1             | ```npm install```         | Install all the project dependencies specified in package.json                               |
-| 2             | ```npm run husky:setup``` | Setup husky hooks. ```npm run lint``` & ```npm run test``` will execute as pre-commit hooks. |
+| Command order | Syntax                    | Description                                                                                                              |
+| ------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 1             | ```npm install```         | Install all the project dependencies specified in package.json                                                           |
+| 2             | ```npm run husky:setup``` | Optional but recommende.: Setup husky hooks. ```npm run lint``` & ```npm run test``` will be set as as pre-commit hooks. |
 
 
 ### Executing program
@@ -181,7 +181,7 @@ Some explenation of the files in the project.
 
 Then enviroment-files are useful hooks for the tools, where you can define variables that you may use in your project.
 If a variable is not used in the project, it will not be included in the build. 
-Remember to use the ```REACT_APP_``` prefix when namkign the variables, otherwise they will not be included.
+Remember to use the ```REACT_APP_``` prefix when naming the variables, otherwise they will not be included.
  
  | Name                   | Type | Description                                                                            |
  | ---------------------- | ---- | -------------------------------------------------------------------------------------- |
