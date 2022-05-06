@@ -222,7 +222,7 @@ Failed to parse source map from '...node_modules/ts-invariant/src/invariant.ts'.
 ```
 
 Some more comments about the issue can be found [here](https://github.com/mswjs/msw/issues/1030#issuecomment-1001449665)
-</details>
+</details><br/>
 
 ### Useful sites for developers
 
