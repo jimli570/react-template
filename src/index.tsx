@@ -12,14 +12,14 @@ import {
   ApolloProvider,
   // useQuery,
   // gql
-} from "@apollo/client";
+} from '@apollo/client';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: process.env.REACT_APP_BACKEND
+  uri: process.env.REACT_APP_BACKEND,
 });
 
 root.render(
@@ -29,7 +29,7 @@ root.render(
         <App />
       </Provider>
     </ApolloProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,21 +1,34 @@
+import React from 'react';
 import logo from 'assets/img/logo.svg';
-import { Counter } from 'features/counter/Counter';
+import Counter from 'features/counter/Counter';
 import 'App.scss';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
-          You are in <code>{process.env.NODE_ENV}</code> mode.
+          You are in
+          {' '}
+          <code>{process.env.NODE_ENV}</code>
+          {' '}
+          mode.
         </p>
         <p>
-          REACT_APP_BACKEND is set to <code>{process.env.REACT_APP_BACKEND}</code> in the .env files.
+          REACT_APP_BACKEND is set to
+          {' '}
+          <code>{process.env.REACT_APP_BACKEND}</code>
+          {' '}
+          in the .env files.
         </p>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit
+          {' '}
+          <code>src/App.tsx</code>
+          {' '}
+          and save to reload.
         </p>
         <span>
           <span>Learn </span>
@@ -45,7 +58,8 @@ function App() {
           >
             Redux Toolkit
           </a>
-          ,<span> and </span>
+          ,
+          <span> and </span>
           <a
             className="App-link"
             href="https://react-redux.js.org/"
@@ -59,5 +73,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -3,16 +3,25 @@ module.exports = {
   // Configs to use for linting
   extends: [
     'react-app',
-    "react-app/jest"
+    'react-app/jest',
+    'airbnb',
+    'airbnb/hooks',
   ],
+
+  rules: {
+    // override/add rules settings here, such as:
+    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
+    'import/no-unresolved': 0,
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['src/setupTests.ts', '**/*.test.*'] }],
+  },
 
   overrides: [
     {
       files: [
-        "**/*.ts?(x)"
+        '**/*.ts?(x)',
       ],
       rules: {
-      }
-    }
-  ]
+      },
+    },
+  ],
 };

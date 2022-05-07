@@ -5,7 +5,20 @@
 		}
 	],
 	"settings": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"eslint.alwaysShowStatus": true,
+		"eslint.format.enable": true,
+		"eslint.useESLintClass": true,
+		"eslint.validate": [
+			"vue",
+			"html",
+			"javascript",
+			"typescript",
+			"javascriptreact",
+			"typescriptreact"
+		],
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"eslint.lintTask.enable": false,
 	},
 	"extensions": {
 		"recommendations": [

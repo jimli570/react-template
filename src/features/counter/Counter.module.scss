@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.row > button {
+.row>button {
   margin-left: 4px;
   margin-right: 8px;
 }
@@ -34,7 +34,7 @@
   color: colors.$baseColor;
   padding-bottom: 4px;
   cursor: pointer;
-  background-color: rgba( colors.$baseColor, .1 );
+  background-color: rgba(colors.$baseColor, .1);
   border-radius: 2px;
   transition: all 0.15s;
 }
@@ -49,11 +49,11 @@
 
 .button:hover,
 .button:focus {
-  border: 2px solid rgba( colors.$baseColor, .4 );
+  border: 2px solid rgba(colors.$baseColor, .4);
 }
 
 .button:active {
-  background-color: rgba( colors.$baseColor, .2 );
+  background-color: rgba(colors.$baseColor, .2);
 }
 
 .asyncButton {
@@ -63,7 +63,7 @@
 
 .asyncButton:after {
   content: "";
-  background-color: rgba( colors.$baseColor, .15 );
+  background-color: rgba(colors.$baseColor, .15);
   display: block;
   position: absolute;
   width: 100%;
