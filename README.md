@@ -171,6 +171,7 @@ Some explenation of the files in the project.
  | ```src/```                          | folder | Project sourcecode                                                                                     |
  | ```.eslintignore```                 | file   | Contains list of folders & files that should be ignored by eslint                                      |
  | ```.eslintrc.js```                  | file   | Eslint configuration                                                                                   |
+ | ```.browserslistrc```               | file   | Specifies supported browsers                                                                           |
  | ```.gitignore```                    | file   | Contains list of folders & files that should be ignored by git                                         |
  | ```README.md```                     | file   | This is the README you are reading right now                                                           |
  | ```config-overrides.js```           | file   | Override project configuration that otherwise might be difficult to hook into in here.                 |
