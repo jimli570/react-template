@@ -5,7 +5,7 @@ import { store } from 'app/store';
 import App from 'App';
 import 'index.scss';
 
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from 'reportWebVitals';
 import {
   ApolloClient,
   InMemoryCache,

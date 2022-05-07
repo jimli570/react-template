@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from 'assets/img/logo.svg';
 import { Counter } from 'features/counter/Counter';
 import 'App.scss';
 
@@ -9,10 +9,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
-          You are in <code>{ process.env.NODE_ENV }</code> mode.
+          You are in <code>{process.env.NODE_ENV}</code> mode.
         </p>
         <p>
-          REACT_APP_BACKEND is set to <code>{ process.env.REACT_APP_BACKEND }</code> in the .env files.
+          REACT_APP_BACKEND is set to <code>{process.env.REACT_APP_BACKEND}</code> in the .env files.
         </p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
