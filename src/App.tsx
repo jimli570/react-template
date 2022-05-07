@@ -2,8 +2,11 @@ import React from 'react';
 import logo from 'assets/img/logo.svg';
 import Counter from 'features/counter/Counter';
 import 'App.scss';
+import {
+  BrowserRouter as Router, Link, Routes, Route,
+} from 'react-router-dom';
 
-export default function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +19,7 @@ export default function App() {
           {' '}
           mode.
         </p>
+
         <p>
           REACT_APP_BACKEND is set to
           {' '}
@@ -23,6 +27,7 @@ export default function App() {
           {' '}
           in the .env files.
         </p>
+
         <p>
           Edit
           {' '}
@@ -30,6 +35,14 @@ export default function App() {
           {' '}
           and save to reload.
         </p>
+
+        <p>
+          Routes:
+          <Link to="/">Home</Link>
+          &nbsp;
+          <Link to="/other">Other home</Link>
+        </p>
+
         <span>
           <span>Learn </span>
           <a
@@ -71,5 +84,22 @@ export default function App() {
         </span>
       </header>
     </div>
+  );
+}
+
+function Other() {
+  return (
+    <h1>Other</h1>
+  );
+}
+
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/other" element={<Other />} />
+      </Routes>
+    </Router>
   );
 }

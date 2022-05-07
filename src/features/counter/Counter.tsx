@@ -1,4 +1,7 @@
-import { React, useState } from 'react';
+// eslint-disable-next-line import/no-duplicates
+import React from 'react';
+// eslint-disable-next-line import/no-duplicates
+import { useState } from 'react';
 
 import { useAppSelector, useAppDispatch } from 'app/hooks';
 import {
