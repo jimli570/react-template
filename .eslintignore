@@ -4,6 +4,7 @@ out/
 node_modules/
 .env
 .gitignore
+.browserlistrc
 config.override.js
 package-lock.json
 README.md
