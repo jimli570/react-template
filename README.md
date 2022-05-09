@@ -57,7 +57,7 @@ Step 2 only needed if you actually want to set these as pre-commit hooks (which 
 | Command order | Syntax                    | Description                                                                                                              |
 | ------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | 1             | ```npm install```         | Install all the project dependencies specified in package.json                                                           |
-| 2             | ```npm run husky:setup``` | Optional but recommende.: Setup husky hooks. ```npm run lint``` & ```npm run test``` will be set as as pre-commit hooks. |
+| 2             | ```npm run husky:setup``` | Optional but recommended: Setup husky hooks. ```npm run lint``` & ```npm run test``` will be set as as pre-commit hooks. |
 
 
 ### Executing program
