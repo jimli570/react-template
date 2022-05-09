@@ -10,8 +10,6 @@ Modern up to date project template for a modern SPA react project.
 
 It is important to have a good foundation to build your project upon, using the proper tools to your advantage, having a good structure. This will increase your developement speed, quality, testability etc. In the end, you pay less & gain more.
 
-with un foundation you eventually have to pay the price. It will eventually end up with more bugs, less understandable code, less fun code to work with. All these things will cost you in **time**.
-
 therefore I created this, to have a good starting point.
 It might not contain everything you need, but it should be a good starting point for your creation of a modern webapplication.
 
