@@ -55,6 +55,7 @@ function Home() {
           React
         </a>
         <span>, </span>
+
         <a
           className={styles['App-link']}
           href="https://redux.js.org/"
@@ -64,6 +65,7 @@ function Home() {
           Redux
         </a>
         <span>, </span>
+
         <a
           className={styles['App-link']}
           href="https://redux-toolkit.js.org/"
@@ -74,6 +76,7 @@ function Home() {
         </a>
         ,
         <span> and </span>
+
         <a
           className={styles['App-link']}
           href="https://react-redux.js.org/"
