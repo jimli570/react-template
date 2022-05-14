@@ -1,16 +1,18 @@
 import React from 'react';
 import logo from 'assets/img/logo.svg';
 import Counter from 'features/counter/Counter';
-import 'App.scss';
+import styles from 'App.module.scss';
+
 import {
   BrowserRouter as Router, Link, Routes, Route,
 } from 'react-router-dom';
 
 function Home() {
   return (
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
+    <header className={styles['App-header']}>
+      <img src={logo} className={styles['App-logo']} alt="logo" />
       <Counter />
+
       <p>
         You are in
         {' '}
@@ -45,7 +47,7 @@ function Home() {
       <span>
         <span>Learn </span>
         <a
-          className="App-link"
+          className={styles['App-link']}
           href="https://reactjs.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -54,7 +56,7 @@ function Home() {
         </a>
         <span>, </span>
         <a
-          className="App-link"
+          className={styles['App-link']}
           href="https://redux.js.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -63,7 +65,7 @@ function Home() {
         </a>
         <span>, </span>
         <a
-          className="App-link"
+          className={styles['App-link']}
           href="https://redux-toolkit.js.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -73,7 +75,7 @@ function Home() {
         ,
         <span> and </span>
         <a
-          className="App-link"
+          className={styles['App-link']}
           href="https://react-redux.js.org/"
           target="_blank"
           rel="noopener noreferrer"

@@ -1,7 +1,4 @@
-// eslint-disable-next-line import/no-duplicates
-import React from 'react';
-// eslint-disable-next-line import/no-duplicates
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 import { useAppSelector, useAppDispatch } from 'app/hooks';
 import {
@@ -22,7 +19,7 @@ export default function Counter() {
   const incrementValue = Number(incrementAmount) || 0;
 
   return (
-    <div>
+    <>
       <div className={styles.row}>
         <button
           className={styles.button}
@@ -49,6 +46,7 @@ export default function Counter() {
           value={incrementAmount}
           onChange={(e) => setIncrementAmount(e.target.value)}
         />
+
         <button
           className={styles.button}
           type="button"
@@ -56,6 +54,7 @@ export default function Counter() {
         >
           Add Amount
         </button>
+
         <button
           className={styles.asyncButton}
           type="button"
@@ -63,6 +62,7 @@ export default function Counter() {
         >
           Add Async
         </button>
+
         <button
           className={styles.button}
           type="button"
@@ -71,6 +71,6 @@ export default function Counter() {
           Add If Odd
         </button>
       </div>
-    </div>
+    </>
   );
 }
