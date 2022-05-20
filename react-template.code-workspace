@@ -5,7 +5,7 @@
 		}
 	],
 	"settings": {
-		"editor.formatOnSave": true,
+		"editor.formatOnSave": false,
 		"eslint.alwaysShowStatus": true,
 		"eslint.format.enable": true,
 		"eslint.useESLintClass": true,
@@ -19,6 +19,7 @@
 		],
 		"typescript.tsdk": "node_modules/typescript/lib",
 		"eslint.lintTask.enable": false,
+		"html.format.enable": false,
 	},
 	"extensions": {
 		"recommendations": [

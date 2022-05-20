@@ -1,20 +1,16 @@
 import React from 'react';
 
-import Counter from 'features/counter/Counter';
-
 import logo from 'assets/img/logo.svg';
 import styles from 'views/pages/Home/Home.module.scss';
 
 import { Link } from 'react-router-dom';
 
-// interface IProps {
-//   children: React.ReactNode;
-// }
+const Counter = React.memo(React.lazy(() => import('features/counter/Counter')));
 
 export default function Home() {
   return (
-    <header className={styles.app}>
-      <img src={logo} className={styles['app-logo']} alt="logo" />
+    <header className={styles.home}>
+      <img src={logo} className={styles['home-logo']} alt="logo" />
       <Counter />
 
       <p>
@@ -45,13 +41,13 @@ export default function Home() {
         Routes:
         <Link to="/">Home</Link>
         &nbsp;
-        <Link to="/other">Other home</Link>
+        <Link to="/other">Empty Route</Link>
       </p>
 
       <span>
         <span>Learn </span>
         <a
-          className={styles['app-link']}
+          className={styles['home-link']}
           href="https://reactjs.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -61,7 +57,7 @@ export default function Home() {
         <span>, </span>
 
         <a
-          className={styles['app-link']}
+          className={styles['home-link']}
           href="https://redux.js.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -71,7 +67,7 @@ export default function Home() {
         <span>, </span>
 
         <a
-          className={styles['app-link']}
+          className={styles['home-link']}
           href="https://redux-toolkit.js.org/"
           target="_blank"
           rel="noopener noreferrer"
@@ -82,7 +78,7 @@ export default function Home() {
         <span> and </span>
 
         <a
-          className={styles['app-link']}
+          className={styles['home-link']}
           href="https://react-redux.js.org/"
           target="_blank"
           rel="noopener noreferrer"

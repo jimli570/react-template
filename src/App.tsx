@@ -1,11 +1,11 @@
 import React from 'react';
 
-const AppRoutes = React.memo(React.lazy(() => import('app/AppRoutes')));
+const LayoutFull = React.memo(React.lazy(() => import('views/LayoutFull')));
 
 export default function App() {
   return (
     <div className="app" data-testid="app-testID">
-      <AppRoutes />
+      <LayoutFull />
     </div>
   );
 }
