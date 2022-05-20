@@ -9,6 +9,7 @@ import {
   incrementIfOdd,
   selectCount,
 } from 'features/counter/counterSlice';
+
 import styles from 'features/counter/Counter.module.scss';
 
 export default function Counter() {
