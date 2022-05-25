@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from 'views/core/LayoutBackground.module.scss';
+import styles from 'features/layout/core/LayoutBackground.module.scss';
 
 interface IProps {
   children: React.ReactNode;

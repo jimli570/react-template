@@ -8,39 +8,47 @@ import { Link } from 'react-router-dom';
 const Counter = React.memo(React.lazy(() => import('features/counter/Counter')));
 
 export default function Home() {
+  // const { env } = process;
+
+  const items = [];
+
+  Object.keys(process.env).forEach((key) => {
+    // console.log(key);
+    // console.log('export ' + key + '="' + env[key] +'"');
+    items.push(
+      <code>
+        { key }
+        + env[ key ]
+      </code>,
+    );
+  });
+
   return (
     <header className={styles.home}>
       <img src={logo} className={styles['home-logo']} alt="logo" />
       <Counter />
 
       <p>
-        You are in
-        {' '}
-        <code>{process.env.NODE_ENV}</code>
-        {' '}
-        mode.
+        <span>Edit </span>
+        <code>src/Home.tsx</code>
+        <span> and save to reload.</span>
       </p>
 
+      <ul>
+        <span>Varibles from the .env*-files</span>
+        <ul>
+          <li>
+            <code>{`process.env.NODE_ENV = ${process.env.NODE_ENV}`}</code>
+          </li>
+          <li>
+            <code>{`process.env.NODE_ENV = ${process.env.REACT_APP_BACKEND}`}</code>
+          </li>
+        </ul>
+      </ul>
       <p>
-        REACT_APP_BACKEND is set to
-        {' '}
-        <code>{process.env.REACT_APP_BACKEND}</code>
-        {' '}
-        in the .env files.
-      </p>
-
-      <p>
-        Edit
-        {' '}
-        <code>src/App.tsx</code>
-        {' '}
-        and save to reload.
-      </p>
-
-      <p>
-        Routes:
+        <span>Routes: </span>
         <Link to="/">Home</Link>
-        &nbsp;
+        <span> </span>
         <Link to="/other">Empty Route</Link>
       </p>
 
@@ -83,7 +91,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          React Redux
+          <span>React Redux</span>
         </a>
       </span>
     </header>
