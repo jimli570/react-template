@@ -1,4 +1,3 @@
-/* eslint-disable testing-library/no-unnecessary-act */
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import { Provider } from 'react-redux';
